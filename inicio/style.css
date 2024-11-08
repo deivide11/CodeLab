@@ -175,6 +175,30 @@ body{
     font-size: 16px;
 }
 
+.c-linguagens{
+    overflow-x: auto;
+    max-width: 420px;
+    display: flex;
+}
+
+.c-linguagens .linguagens{
+    display: flex;
+    gap: 15px;
+}
+
+.c-linguagens .p-ling{
+    width: 135px;
+    height: 200px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.c-linguagens .c-html{
+    background-image: linear-gradient(#FF4D00 0%, #000 100%);
+}
+
 .start{
     width: 100%;
 }
