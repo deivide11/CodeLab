@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --bg-fundo: #0E0E0E;
+    --bg-btn: #121214;
+    --gray-700: #1E1E1E;
+    --border-btn: #2E2E2E;
+    --gray-500: #212121;
+    --gray-400: #353535;
+    --gray-300: #595959;
+    --gray-200: #9F9F9F;
+    --gray-100: #D9D9D9;
+    --orange-html: #FF4D00;
+    --blue-css: #0038FF;
+    --yellow-js: #FAFF00;
+    --cyan-dark: #16495A;
+    --cyan-light: #2F9CC0;
+    --green: #3BCE07;
+    --red-500: #BB0000;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Kanit;
+    font-weight: 300;
+}
+
+body{
+    background-color: var(--bg-fundo);
+}
+
+.m-bottom {
+    margin-bottom: 20px;
+}
+
+#app{
+    max-width: 420px;
+    margin: auto;
+}
+
+.header-adm {
+    margin: auto;
+    height: 75px;
+    background-color: var(--bg-btn);
+    border-bottom: 2px solid var(--border-btn);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+}
+
+.img-perfil {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    /* padding: 10%; */
+}
+
+.perfil{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    
+}
+
+.container {
+    padding: 20px 25px;
+    height: 75vh;
+    overflow-y: auto;
+    margin: auto;
+}
+
+.money h1{
+    color: green;
+}
+
+.c-jornada{
+    display: flex;
+    padding: 15px 20px;
+    width: 100%;
+    height: 185px;
+    border: 1px solid var(--border-btn);
+    background: var(--bg-btn);
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.c-jornada p {
+    color: var(--gray-300);
+    text-align: center;
+    font-weight: 400;
+}
+
+.c-dificuldade{
+    display: flex;
+    padding: 15px 20px;
+    width: 100%;
+    height: 185px;
+    border: 1px solid var(--border-btn);
+    background: var(--bg-btn);
+    border-radius: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.t-porcentagem{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-dificuldade .c-porcentagem{
+    height: 100%;
+    width: 85%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.c-dificuldade .porcentagem{
+    width: 100%;
+    height: 20px;
+    border-radius: 3px;
+    position: absolute;
+    background: white;
+}
+
+.c-dificuldade .test-porcentagem{
+    width: 50%;
+    height: 20px;
+    border-radius: 3px;
+    position: absolute;
+    background: var(--orange-html);
+}
+
+.c-dificuldade .c-btn-dificuldade{
+    height: 100%;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.c-dificuldade .dificuldade1{
+    border: 1px solid var(--orange-html);
+    border-radius: 7px;
+    background: black;
+    color: white;
+    height: 35px;
+    font-weight: 500;
+}
+
+.c-dificuldade .btn-dificuldade{
+    border: 1px solid var(--gray-700);
+    border-radius: 7px;
+    background: var(--bg-fundo);
+    color: var(--border-btn);
+    height: 35px;
+    font-weight: 500;
+}
+
+.c-dificuldade h2{
+    color: white;
+    font-size: 16px;
+}
+
+.start{
+    width: 100%;
+}
+
+.btn-start{
+    width: 100%;
+    height: 45px;
+    font-size: 18px;
+    color: white;
+    background: black;
+    border: 1px solid var(--gray-700);
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5), inset 0px 0px 10px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+}
+
+.name-lingue{
+    color:#FF4D00;
+}
+
+/* button:hover{
+    background: linear-gradient(267.92deg, #348CAA 0%, #38CBFB 100%);
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 7px 5px 2px rgba(0, 0, 0, 0.5), inset 0px 0px 10px 10px rgba(0, 0, 0, 0.25);
+} */
+/* 
+button:active{
+    background: linear-gradient(267.92deg, #003044 0%, #006B8E 100%);
+    border: 1px solid #9F9F9F;
+    box-shadow: inset 0px 0px 10px 10px rgba(0, 0, 0, 0.25);
+    color: #9F9F9F;
+    transition: 0.5s ease;
+} */
+
+h1 {
+    color: white;
+    font-size: 24px;
+}
+
+.bx, p {
+    color: var(--border-btn);
+}
+
+.bx{
+    font-size: 27px;
+}
+
+.c-icon__active:hover i, .c-icon__active:hover p {
+    color: white;
+}
+
+/* Quando clicado (classe .active), os ícones e o texto ficam brancos */
+.c-icon__active.active i, .c-icon__active.active p {
+    color: white;
+}
+.footer{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    background-color: var(--bg-btn);
+    height: 90px;
+    width: 100%;
+    border-top: 2px solid var(--border-btn);
+    max-width: 420px;
+}
+
+.c-icon{
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 25px;
+    align-items: center;
+}
