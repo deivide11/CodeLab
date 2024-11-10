@@ -199,6 +199,14 @@ body{
     background-image: linear-gradient(#FF4D00 0%, #000 100%);
 }
 
+.c-linguagens .c-css{
+    background-image: linear-gradient(rgb(0, 89, 255) 0%, #000 100%);
+}
+
+.c-linguagens .c-js{
+    background-image: linear-gradient(rgb(255, 238, 0) 0%, #000 100%);
+}
+
 .start{
     width: 100%;
 }
