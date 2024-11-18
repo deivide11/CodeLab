@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../adm/css/style.css">
+    <title>Administrador</title>
+</head>
+<body style="height: 100vh;">
+    <div id="app">
+        <!-- Header do adm -->
+        <div class="header-adm">
+            <div class="c-perfil">
+                <div class="perfil">
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Miolo com os bagulhos -->
+        <div class="container">
+            <div class="c-escolhas">
+                <h1> Escolhas </h1>
+                <div class="escolhas">
+                    <select class="select-escolhas m-bottom" name="" id="">
+                        <option value="">HTML</option>
+                        <option value="">CSS</option>
+                        <option value="">JS</option>
+
+                    </select>
+                    <select class="select-escolhas m-bottom" name="" id="">
+                        <option value="">Iniciante</option>
+                        <option value="">Intermediário</option>
+                        <option value="">Avançado</option>
+
+                    </select>
+                </div>
+            </div>
+
+            <div class="c-perguntas m-bottom">
+                <h1> Perguntas </h1>
+                <div class="perguntas">
+                    <input type="text" placeholder="Nome do Quiz">
+                </div>
+            </div>
+
+            <div class="c-alternativas m-bottom">
+                <h1> Alternativas </h1>
+                <div class="alternativas">
+                    <input type="text" placeholder="Alternativa 1">
+                    <input type="text" placeholder="Alternativa 2">
+                    <input type="text" placeholder="Alternativa 3">
+                </div>
+            </div>
+
+            <div class="c-respsota">
+                <h1> Resposta certa </h1>
+                <div class="resposta m-bottom">
+                    <label>
+                        <input type="radio" name="resposta" class="alt-certas">
+                        <span>Alternativa 1</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="resposta" class="alt-certas">
+                        <span>Alternativa 2</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="resposta" class="alt-certas">
+                        <span>Alternativa 3</span>
+                    </label>
+                </div>
+            </div>
+            
+            <button> Salvar </button>
+        </div>
+
+        <div class="footer">
+            <div class="c-icon">
+                <div class="c-icon__home c-icon__active">
+                    <i class='bx bx-home'></i>
+                    <p>Inicio</p>
+                </div>
+                <div class="c-icon__pergunta c-icon__active">
+                    <i class='bx bx-question-mark' ></i>
+                    <p>Perguntas</p>
+                </div>
+                <div class="c-icon__edit c-icon__active">
+                    <i class='bx bx-edit' ></i>
+                    <p>Editar</p>
+                </div>
+                <div class="c-icon__fotos c-icon__active">
+                    <i class='bx bx-image' ></i>
+                    <p>Fotos</p>
+                </div>
+                <div class="c-icon__sair c-icon__active">
+                    <i class='bx bx-log-out' ></i>
+                    <p>Sair</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
