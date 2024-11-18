@@ -73,6 +73,7 @@ body{
     overflow-y: auto;
     margin: auto;
 }
+<<<<<<< HEAD
 
 .c-banner__perfil{
     width: 100%;
@@ -99,3 +100,5 @@ body{
     width: 100%;
     justify-content: space-between;
 }
+=======
+>>>>>>> 8215115ef215a086f2781c7df1dad6b710cd173b
