@@ -131,3 +131,8 @@ body{
     height: 20px;
     display: flex;
 }
+
+button{
+    background: var(--cyan-light);
+    padding: 10px 14px;
+}
