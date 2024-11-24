@@ -135,4 +135,5 @@ body{
 button{
     background: var(--cyan-light);
     padding: 10px 14px;
+    border: 1px solid red;
 }
